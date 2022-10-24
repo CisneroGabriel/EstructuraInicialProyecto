@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+
+.ferreteria{
+    font-family: 'Playfair Display SC', serif;
+    color: #e47e0a;
+    font-size: 2rem;
+    
+}
+
+
+.imgheader{
+    background-color: #e47e0a;
+    padding: 1rem 0 2rem 0;
+}
+
+.fondoimg{
+    background-image: url(./assets/img/herramientas_2_crop1602211127446.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;    
+
+}
+
+
+
+
+.display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bordeul{
+    border-style: double;
+    padding: 1rem  
+    margin: 4rem;
+    font-size: 140%;
+}
+
+.bordeul:hover{
+    color: #e47e0a;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
