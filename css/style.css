@@ -25,18 +25,38 @@
 }
 
 .carouselindex{
-    grid-area: carousel;
+    grid-area: carousel;   
 }
 
 .textindex{
     grid-area: textArea;
+    display: flex;
     justify-content: center;
-    align-items: center;
-  
+   align-items: center;
+   flex-direction: column;
+   background-color: rgb(200, 210, 178); 
 }
 
 .footerindex{
     grid-area: footer;
+    display: flex;
+    background-color: rgb(226, 234, 208); 
+}
+
+.gridfooter{
+    display: grid;
+    grid-template-columns: 3fr 31fr 3fr;
+    grid-template-rows: 1fr;
+
+    grid-template-areas: "redes nada link";
+}     
+
+.redesfoot{
+    grid-area: redes;
+}
+
+.linkfoot{
+    grid-area: link;
 }
 
 
