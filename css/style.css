@@ -1,6 +1,42 @@
 *{
     margin: 0;
     padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.gridindex{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 2fr fr 1fr;
+
+    grid-template-areas: "imagen imagen"
+                         "nav    nav   "
+                         "carousel  textArea "
+                         "footer    footer";
+    }
+
+.imggrid{
+    grid-area: imagen;
+}
+
+.navboots{
+    grid-area: nav;
+}
+
+.carouselindex{
+    grid-area: carousel;
+}
+
+.textindex{
+    grid-area: textArea;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.footerindex{
+    grid-area: footer;
 }
 
 
