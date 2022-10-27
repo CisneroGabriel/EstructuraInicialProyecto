@@ -18,9 +18,10 @@
 
 
 
-<body>
+<body class="gridgalery">
 
-    <div class="navboots">
+    <!--Barra de Navegacion-->
+    <div class="navbarr">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">Ferreteria</a>
@@ -46,13 +47,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/acerca_de_nosotros.html">Sobre Nosotros</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
-                        </li>
+                        
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                 
                     </form>
                 </div>
             </div>
@@ -60,28 +57,60 @@
     </div>
 
 
-    <main>
+     <!--Carousel Como Banner-->
+    <section class="galerybanner">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="../assets/img/bannergalery1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../assets/img/bannergalery2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/bannergalery3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/bannergalery4.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
 
-        <h1>Galeria</h1>
 
-        <section>
-            <img src="../assets/img/depositphotos_113562842-stock-illustration-logo-house-remodel-service-logo.jpg"
-                alt="">
-            <img src="../assets/img/287e669ccb3f25ac29daa8aa0e2b2d0e.jpg" alt="">
-            <img src="../assets/img/slide-1-m.jpg" alt="">
-        </section>
+    <section class="titulog">
+        <h1>
+            Todo lo que podés encontrar en nuestra tienda
+        </h1>
+    </section>
 
-        <section>
-            <h2>Iframe</h2>
-            <iframe width="1259" height="672" src="https://www.youtube.com/embed/JR8k2W1CVMc"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+    <setion class="g1pin">
+        <h2>
+            Pinzas de todo tipo
+        </h2>
+        
+        <img class="imgpinzas" src="../assets/img/pinzas1.jpg" alt="">
+        <img class="imgpinzas" src="../assets/img/pinzas2.jpg" alt="">
+        <img class="imgpinzas" src="../assets/img/imgcarousel3.jpg" alt="">
+
+    </setion>
+
+    <section class="g2llaves">
+        <h2>
+            Llaves
+        </h2>
 
 
-        </section>
-
-    </main>
+    </section>
+      
 
 
 

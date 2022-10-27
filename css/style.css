@@ -45,7 +45,7 @@
 
 .gridfooter{
     display: grid;
-    grid-template-columns: 3fr 31fr 3fr;
+    grid-template-columns: 5fr 27fr 3fr;
     grid-template-rows: 1fr;
 
     grid-template-areas: "redes nada link";
@@ -53,11 +53,77 @@
 
 .redesfoot{
     grid-area: redes;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .linkfoot{
     grid-area: link;
 }
+
+.gridgalery{
+    display: grid;
+    grid-template-columns: 33fr 33fr 33fr;
+    grid-template-rows: 1fr fr 5fr 5fr 10fr 1fr;
+
+    grid-template-areas: "navbar    navbar     navbar"
+                        "carbanner  carbanner carbanner"
+                        "h1galery    pinzas    llaves"
+                        "carpin      pinzas    llaves"
+                        "alba      electricas  plomeria"
+                        "footer      footer     footer";
+}
+
+.navbarr{
+    grid-area: navbar;
+}
+
+.galerybanner{
+    grid-area: carbanner;
+   width: 94rem;
+   height: auto;
+}
+
+
+
+.titulog{
+    grid-area: h1galery;
+
+}
+.imgpinzas{
+    height: 40%;
+    width: 45%;
+    
+}
+
+.g1pin{
+    grid-area: pinzas;
+  
+    
+}
+
+.g2llaves{
+    grid-area: llaves;
+}
+
+.g3alba{
+    grid-area: alba;
+}
+
+.g4electricas{
+grid-area: electricas; 
+}
+
+.g5plomeria{
+    grid-area: plomeria;
+}
+
+.footerg{
+    grid-area: footer;
+}
+
+
 
 
 .ferreteria{
