@@ -1,9 +1,12 @@
+
+
 * {
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
 }
 
+@import url(../css/carousel/_carousel.scss);t
 
 .gridindex {
     display: grid;
@@ -179,22 +182,37 @@ ul {
 
 .productalba {
     grid-area: alba;
-    background-color: #e47e0a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .productelectri {
     grid-area: electri;
-    background-color: #79b813;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .productcarpin {
     grid-area: carpin;
-    background-color: #79b813;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
 }
 
 .productotros {
     grid-area: otros;
-    background-color: rgb(33, 60, 182);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .productfoot {

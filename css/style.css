@@ -1,11 +1,12 @@
 @charset "UTF-8";
+@import url(../css/carousel/_carousel.scss);
 * {
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
 }
 
-.gridindex {
+t .gridindex {
   display: grid;
   grid-template-columns: 2fr 2fr;
   grid-template-rows: 1fr 2fr fr 1fr;
@@ -163,22 +164,34 @@ ul {
 
 .productalba {
   grid-area: alba;
-  background-color: #e47e0a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .productelectri {
   grid-area: electri;
-  background-color: #79b813;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .productcarpin {
   grid-area: carpin;
-  background-color: #79b813;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .productotros {
   grid-area: otros;
-  background-color: rgb(33, 60, 182);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .productfoot {
