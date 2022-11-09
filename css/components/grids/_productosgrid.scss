@@ -1,0 +1,47 @@
+.gridproduct {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 3fr, 1fr;
+
+    grid-template-areas: "nav nav nav nav"
+        "h1 h1 h1 h1"
+        "alba electri carpin otros"
+        "foot foot foot foot";
+    row-gap: 2px;
+    column-gap: 2px;
+}
+
+
+.barra {
+    grid-area: nav;
+}
+
+.h1product {
+    grid-area: h1;
+}
+
+.productalba {
+    grid-area: alba;
+    
+ 
+}
+
+
+.productelectri {
+    grid-area: electri;
+    background-color: #79b813;
+}
+
+.productcarpin {
+    grid-area: carpin;
+    background-color: #79b813;
+}
+
+.productotros {
+    grid-area: otros;
+    background-color: rgb(33, 60, 182);
+}
+
+.productfoot {
+    grid-area: foot;
+}

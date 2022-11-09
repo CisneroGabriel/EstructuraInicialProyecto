@@ -1,66 +1,13 @@
-* {
-    margin: 0;
-    padding: 0%;
-    box-sizing: border-box;
-}
 
 
-.gridindex {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 1fr 2fr fr 1fr;
 
-    grid-template-areas: "imagen imagen"
-        "nav    nav   "
-        "carousel  textArea "
-        "footer    footer";
-}
 
-.imggrid {
-    grid-area: imagen;
-}
+@import url(../css/components/resetcss/_reset.scss);
+@import url(../css/components/grids/_indexgrid.scss);
+@import url(../css/components/grids/_productosgrid.scss);
 
-.navboots {
-    grid-area: nav;
-}
 
-.carouselindex {
-    grid-area: carousel;
-}
-
-.textindex {
-    grid-area: textArea;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(200, 210, 178);
-}
-
-.footerindex {
-    grid-area: footer;
-    display: flex;
-    background-color: rgb(226, 234, 208);
-}
-
-.gridfooter {
-    display: grid;
-    grid-template-columns: 5fr 27fr 3fr;
-    grid-template-rows: 1fr;
-
-    grid-template-areas: "redes nada link";
-}
-
-.redesfoot {
-    grid-area: redes;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-}
-
-.linkfoot {
-    grid-area: link;
-}
+@import url(../css/components/queries/_galeriaqueries.scss);
 
 .container-img {
     width: 100%;
@@ -136,16 +83,11 @@
 
 }
 
-
-
-
 .display {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
-
 
 a {
     text-decoration: none;
@@ -155,77 +97,12 @@ ul {
     list-style-type: none;
 }
 
-.gridproduct {
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr, 3fr, 1fr;
-
-    grid-template-areas: "nav nav nav nav"
-        "h1 h1 h1 h1"
-        "alba electri carpin otros"
-        "foot foot foot foot";
-    row-gap: 2px;
-    column-gap: 2px;
-}
-
-
-.barra {
-    grid-area: nav;
-}
-
-.h1product {
-    grid-area: h1;
-}
-
-.productalba {
-    grid-area: alba;
-    background-color: #e47e0a;
-}
-
-.productelectri {
-    grid-area: electri;
-    background-color: #79b813;
-}
-
-.productcarpin {
-    grid-area: carpin;
-    background-color: #79b813;
-}
-
-.productotros {
-    grid-area: otros;
-    background-color: rgb(33, 60, 182);
-}
-
-.productfoot {
-    grid-area: foot;
-}
 
 
 
 
 
 
-@media screen and (max-width:800px) {
-    .container-img {
-        width: 95%;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-        grid-template-rows: 200px;
-    }
 
-    .container-img .box-img:nth-child(1) {
-        grid-column-start: span 1;
-    }
-}
 
-@media screen and (max-width:500px) {
-    .container-img {
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-    }
 
-    .container-img .box-img img {
-        height: 200px;
-    }
-}

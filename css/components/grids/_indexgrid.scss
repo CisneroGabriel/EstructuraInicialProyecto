@@ -1,0 +1,56 @@
+.gridindex {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 2fr fr 1fr;
+
+    grid-template-areas: "imagen imagen"
+        "nav    nav   "
+        "carousel  textArea "
+        "footer    footer";
+}
+
+.imggrid {
+    grid-area: imagen;
+}
+
+.navboots {
+    grid-area: nav;
+}
+
+.carouselindex {
+    grid-area: carousel;
+}
+
+.textindex {
+    grid-area: textArea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(200, 210, 178);
+}
+
+.footerindex {
+    grid-area: footer;
+    display: flex;
+    background-color: rgb(226, 234, 208);
+}
+
+.gridfooter {
+    display: grid;
+    grid-template-columns: 5fr 27fr 3fr;
+    grid-template-rows: 1fr;
+
+    grid-template-areas: "redes nada link";
+}
+
+.redesfoot {
+    grid-area: redes;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.linkfoot {
+    grid-area: link;
+}
