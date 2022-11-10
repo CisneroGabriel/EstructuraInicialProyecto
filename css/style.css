@@ -107,10 +107,22 @@
   background-color: rgba(172, 157, 48, 0.4431372549);
 }
 
-.ferreteria {
-  font-family: "Playfair Display SC", serif;
-  color: #e47e0a;
-  font-size: 2rem;
+.imgacerca {
+  background-image: url("../assets/img/acercade.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.imgacerca h1 {
+  color: #f88543;
+  font-style: unset;
+  text-decoration: underline;
+  font-size: 5rem;
 }
 
 .display {
