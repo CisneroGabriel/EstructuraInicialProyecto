@@ -143,58 +143,21 @@ ul {
   list-style-type: none;
 }
 
-.gridproduct {
-  display: grid;
-  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-  grid-template-rows: 1fr, 1fr, 3fr, 1fr;
-  grid-template-areas: "nav nav nav nav" "h1 h1 h1 h1" "alba electri carpin otros" "foot foot foot foot";
-  row-gap: 2px;
-  -moz-column-gap: 2px;
-       column-gap: 2px;
+.holapai {
+  display: flex;
+  padding: 2%;
+  justify-content: space-evenly;
+}
+.holapai i {
+  width: 3%;
+  height: 3%;
 }
 
-.barra {
-  grid-area: nav;
-}
-
-.h1product {
-  grid-area: h1;
-}
-
-.productalba {
-  grid-area: alba;
+.flexproduct {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-}
-
-.productelectri {
-  grid-area: electri;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
-
-.productcarpin {
-  grid-area: carpin;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.productotros {
-  grid-area: otros;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.productfoot {
-  grid-area: foot;
 }
 
 @media screen and (max-width: 800px) {
