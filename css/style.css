@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+.h1s {
+  display: flex;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 1%;
+  padding: 1%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .imgindex {
   background-image: url("../assets/img/INDEXSI.jpg");
   background-size: cover;

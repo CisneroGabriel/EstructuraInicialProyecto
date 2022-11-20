@@ -1,9 +1,43 @@
+$colores: (
+    'primario': rgba(174, 93, 58, 0.333),
+    'secundario': rgba(224, 212, 37, 0.333),
+    'terciario': rgba(53, 186, 53, 0.333)
+);
+
 
 * {
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+
 }
+
+
+@mixin card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+@mixin titulospaginas {
+    display: flex;
+   justify-content: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1%;
+    padding: 1%
+
+}
+.h1s {
+    @include titulospaginas;
+    
+}
+
+.cards{
+    @include card;
+}
+
+
+
+
 
 
 

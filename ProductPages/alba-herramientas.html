@@ -2,172 +2,200 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Herramientas-Albañileria</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herramientas-Albañileria</title>
 
-    <!--CDn de bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!--CDn de bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../css/style.css">
+  <!--CdnFontAwesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@0;1&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="../css/style.css">
 
 </head>
 
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Ferreteria</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/galeria.html">Galeria</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/contactanos.html">Contactenos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/acerca_de_nosotros.html">Sobre Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Ferreteria</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contactanos.html">Contactenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/acerca_de_nosotros.html">Sobre Nosotros</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    <section>
-        <img src="../assets/img/alba2.jpg" alt="banner_construccion">
-    </section>
+  <section>
+    <img src="../assets/img/alba2.jpg" alt="banner_construccion">
+  </section>
 
-    <h1>Herramientas de Albañileria</h1>
+  <h1 class="h1s">Herramientas de Albañileria</h1>
+
+
+  <section class="row">
+    <div class="col-xl-12 cards">
+    <div class="card" style="width: 18rem;">
+      <img src="../assets/img/productpages/albañileria/herramientas/alambre_de-fardo.jpg" class="card-img-top"
+        alt="rollo de alambre_de-fardo">
+      <div class="card-body">
+        <h5 class="card-title">Alambre de fardo</h5>
+        <h6> $1200</h6>
+        <p class="card-text"> </p>
+        <a href="#" class="btn btn-primary">Añadir a carrito</a>
+      </div>
+    </div>
 
     <div class="card" style="width: 18rem;">
-        <img src="../assets/img/productpages/albañileria/herramientas/alambre_de-fardo.jpg" class="card-img-top" alt="rollo de alambre_de-fardo">
-        <div class="card-body">
-          <h5 class="card-title">Alambre de fardo</h5>
-          <h6> $1200</h6>
-          <p class="card-text"> </p>
-          <a href="#" class="btn btn-primary">Añadir a carrito</a>
-        </div>
+      <img src="../assets/img/productpages/albañileria/herramientas/balde.jpg" class="card-img-top"
+        alt="balde_de_albañil">
+      <div class="card-body">
+        <h5 class="card-title">Balde de albañil</h5>
+        <h6> $800</h6>
+        <p class="card-text"></p>
+        <a href="#" class="btn btn-primary">Añadir a carrito</a>
       </div>
-      
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/img/productpages/albañileria/herramientas/balde.jpg" class="card-img-top" alt="balde_de_albañil">
-        <div class="card-body">
-          <h5 class="card-title">Balde de albañil</h5>
-          <h6> $800</h6>
-          <p class="card-text"></p>
-          <a href="#" class="btn btn-primary">Añadir a carrito</a>
-        </div>
-      </div>
+    </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/img/productpages/albañileria/herramientas/carretilla.jpg" class="card-img-top" alt="carretilla">
-        <div class="card-body">
-          <h5 class="card-title">Carretilla</h5>
-          <h6> $5.000</h6>
-          <p class="card-text"> </p>
-          <a href="#" class="btn btn-primary">Añadir a carrito</a>
-        </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../assets/img/productpages/albañileria/herramientas/carretilla.jpg" class="card-img-top"
+        alt="carretilla">
+      <div class="card-body">
+        <h5 class="card-title">Carretilla</h5>
+        <h6> $5.000</h6>
+        <p class="card-text"> </p>
+        <a href="#" class="btn btn-primary">Añadir a carrito</a>
       </div>
+    </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/img/productpages/albañileria/herramientas/corta_hierro.jpg" class="card-img-top" alt="corta_hierro">
-        <div class="card-body">
-          <h5 class="card-title">Corta Hierro</h5>
-          <h6> $1200</h6>
-          <p class="card-text">Barra corta hierro de 32cm </p>
-          <a href="#" class="btn btn-primary">Añadir a carrito</a>
-        </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../assets/img/productpages/albañileria/herramientas/corta_hierro.jpg" class="card-img-top"
+        alt="corta_hierro">
+      <div class="card-body">
+        <h5 class="card-title">Corta Hierro</h5>
+        <h6> $1200</h6>
+        <p class="card-text">Barra corta hierro de 32cm </p>
+        <a href="#" class="btn btn-primary">Añadir a carrito</a>
       </div>
+    </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/img/productpages/albañileria/herramientas/cuchara.jpg" class="card-img-top" alt="cuchara_de_albañil">
-        <div class="card-body">
-          <h5 class="card-title">Cuchara de albañil</h5>
-          <h6> $1200</h6>
-          <p class="card-text"> </p>
-          <a href="#" class="btn btn-primary">Añadir a carrito</a>
-        </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../assets/img/productpages/albañileria/herramientas/cuchara.jpg" class="card-img-top"
+        alt="cuchara_de_albañil">
+      <div class="card-body">
+        <h5 class="card-title">Cuchara de albañil</h5>
+        <h6> $1200</h6>
+        <p class="card-text"> </p>
+        <a href="#" class="btn btn-primary">Añadir a carrito</a>
       </div>
+    </div>
 
 
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/img/productpages/albañileria/herramientas/fratacho.jpg" class="card-img-top" alt="fratacho">
-        <div class="card-body">
-          <h5 class="card-title">Fratacho</h5>
-          <h6> $600</h6>
-          <p class="card-text"> </p>
-          <a href="#" class="btn btn-primary">Añadir a carrito</a>
-        </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../assets/img/productpages/albañileria/herramientas/fratacho.jpg" class="card-img-top" alt="fratacho">
+      <div class="card-body">
+        <h5 class="card-title">Fratacho</h5>
+        <h6> $600</h6>
+        <p class="card-text"> </p>
+        <a href="#" class="btn btn-primary">Añadir a carrito</a>
       </div>
+    </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/img/productpages/albañileria/herramientas/maza.jpg" class="card-img-top" alt="maza">
-        <div class="card-body">
-          <h5 class="card-title">Maza</h5>
-          <h6> $1500</h6>
-          <p class="card-text">Maza de mano de 25cm </p>
-          <a href="#" class="btn btn-primary">Añadir a carrito</a>
-        </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../assets/img/productpages/albañileria/herramientas/maza.jpg" class="card-img-top" alt="maza">
+      <div class="card-body">
+        <h5 class="card-title">Maza</h5>
+        <h6> $1500</h6>
+        <p class="card-text">Maza de mano de 25cm </p>
+        <a href="#" class="btn btn-primary">Añadir a carrito</a>
       </div>
+    </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/img/productpages/albañileria/herramientas/pala.jpg" class="card-img-top" alt="pala">
-        <div class="card-body">
-          <h5 class="card-title">Pala</h5>
-          <h6> $5.200</h6>
-          <p class="card-text">Pala ancha de 1mt </p>
-          <a href="#" class="btn btn-primary">Añadir a carrito</a>
-        </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../assets/img/productpages/albañileria/herramientas/pala.jpg" class="card-img-top" alt="pala">
+      <div class="card-body">
+        <h5 class="card-title">Pala</h5>
+        <h6> $5.200</h6>
+        <p class="card-text">Pala ancha de 1mt </p>
+        <a href="#" class="btn btn-primary">Añadir a carrito</a>
       </div>
+    </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/img/productpages/albañileria/herramientas/plomada.jpg" class="card-img-top" alt="plomada">
-        <div class="card-body">
-          <h5 class="card-title">Plomada</h5>
-          <h6> $750</h6>
-          <p class="card-text"> </p>
-          <a href="#" class="btn btn-primary">Añadir a carrito</a>
-        </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../assets/img/productpages/albañileria/herramientas/plomada.jpg" class="card-img-top" alt="plomada">
+      <div class="card-body">
+        <h5 class="card-title">Plomada</h5>
+        <h6> $750</h6>
+        <p class="card-text"> </p>
+        <a href="#" class="btn btn-primary">Añadir a carrito</a>
       </div>
+    </div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="../assets/img/productpages/albañileria/herramientas/tenaza.jpg" class="card-img-top" alt="tenaza">
-        <div class="card-body">
-          <h5 class="card-title">Tenaza</h5>
-          <h6> $2.200</h6>
-          <p class="card-text"> </p>
-          <a href="#" class="btn btn-primary">Añadir a carrito</a>
-        </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../assets/img/productpages/albañileria/herramientas/tenaza.jpg" class="card-img-top" alt="tenaza">
+      <div class="card-body">
+        <h5 class="card-title">Tenaza</h5>
+        <h6> $2.200</h6>
+        <p class="card-text"> </p>
+        <a href="#" class="btn btn-primary">Añadir a carrito</a>
       </div>
+    </div>
+  </div>
+  </section>
 
-    <!--bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+  <footer class="row-2">
+
+    <div class="col-12 footindex">
+      <a href="https://web.whatsapp.com/"> <i class="fa-brands fa-whatsapp fas fa-award fa-2x"></i></a>
+      <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram fas fa-award fa-2x"></i></a>
+      <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook fas fa-award fa-2x"></i></a>
+
+    </div>
+
+  </footer>
+
+  <!--bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
