@@ -1,5 +1,5 @@
 $colores: (
-    'primario': rgba(174, 93, 58, 0.333),
+    "primario": rgba(88, 94, 60, 0.603),
     'secundario': rgba(224, 212, 37, 0.333),
     'terciario': rgba(53, 186, 53, 0.333)
 );
@@ -12,37 +12,59 @@ $colores: (
 
 }
 
+.textmargentext{
+    color: map-get($map: $colores , $key: "primario" );
+}
+
+@mixin textosmargen {
+    margin: 1%;
+    padding: 1%;
+}
 
 @mixin card {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
+
 @mixin titulospaginas {
     display: flex;
-   justify-content: center;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 1%;
     padding: 1%
-
 }
+
+@mixin banners {
+    height: 58%;
+    width: 100%;
+}
+
+
+.imgbanner {
+    @include banners;
+}
+
 .h1s {
     @include titulospaginas;
-    
 }
 
-.cards{
+.cards {
     @include card;
 }
 
+.textmargen {
+    @include textosmargen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body footer div a i {
+    color: #1d1e1dc2;
+}
 
 
 
-
-
-
-
-.imgindex{
+.imgindex {
     background-image: url("../assets/img/INDEXSI.jpg");
     background-size: cover;
     min-height: 100vh;
@@ -52,21 +74,23 @@ $colores: (
     align-items: center;
     justify-content: center;
     flex-direction: column;
-      h1{
+
+    h1 {
         color: #ffffff;
         font-style: unset;
-        text-decoration:underline;
+        text-decoration: underline;
         font-size: 4rem;
-      }
-  p{
-    color: #e7c7a3;
-    font-size: 2rem;
-  }
-    
+    }
+
+    p {
+        color: #e7c7a3;
+        font-size: 2rem;
+    }
+
 }
 
 
-.sectionimg{
+.sectionimg {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,16 +98,16 @@ $colores: (
     padding-right: 3%;
 
 
-    h2{
+    h2 {
         font-size: 2rem;
     }
 
-    p{
+    p {
         font-size: 1rem;
     }
 }
 
-.sectionimg2{
+.sectionimg2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,7 +116,7 @@ $colores: (
 
 }
 
-.footindex{
+.footindex {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,7 +174,7 @@ $colores: (
     background-color: #ac9d3071;
 }
 
-.imgacerca{
+.imgacerca {
     background-image: url("../assets/img/acercade.jpg");
     background-size: cover;
     min-height: 100vh;
@@ -160,12 +184,13 @@ $colores: (
     align-items: center;
     justify-content: center;
     flex-direction: column;
-      h1{
+
+    h1 {
         color: #f88543;
         font-style: unset;
-        text-decoration:underline;
+        text-decoration: underline;
         font-size: 5rem;
-      }
+    }
 }
 
 
@@ -189,12 +214,12 @@ ul {
 
 
 
-.holapai{
+.holapai {
     display: flex;
     padding: 2%;
     justify-content: space-evenly;
 
-    i{
+    i {
         width: 3%;
         height: 3%;
     }
@@ -202,7 +227,7 @@ ul {
 
 }
 
-.flexproduct{
+.flexproduct {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -211,7 +236,7 @@ ul {
 
 
 .contacta {
-  
+
     color: rgb(88, 16, 16);
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
@@ -237,32 +262,32 @@ ul {
 
 .contact-wrapper {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-   
+
 }
 
 
 .contact-form {
     background: #e5ad47a0;
 
-    form{
+    form {
         display: grid;
         grid-template-columns: 1fr, 1fr;
     }
 
-    label{
+    label {
         display: block;
     }
 
-    p{
+    p {
         margin: 0;
         padding: 1em;
     }
 
 
     .block {
-    grid-column: 1 / 3;
+        grid-column: 1 / 3;
     }
-   } 
+}
 
 
 
@@ -298,7 +323,9 @@ ul {
     background: rgba(223, 234, 75, 0.821);
 }
 
-.contact-info h4, .contact-info ul, .contact-info p {
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
     text-align: center;
     margin: 0 0 1rem 0;
 }
@@ -310,13 +337,16 @@ ul {
     .contacta {
         padding: 0 4em;
     }
+
     .contact-wrapper {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
-    .contact-wrapper > * {
+
+    .contact-wrapper>* {
         padding: 2em;
     }
+
     .contact-info h4,
     .contact-info ul,
     .contact-info p {
@@ -347,5 +377,3 @@ ul {
         height: 200px;
     }
 }
-   
-   
