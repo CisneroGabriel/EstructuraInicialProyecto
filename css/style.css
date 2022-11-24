@@ -141,24 +141,6 @@ body footer div a i {
   background-color: rgba(172, 157, 48, 0.4431372549);
 }
 
-.imgacerca {
-  background-image: url("../assets/img/acercade.jpg");
-  background-size: cover;
-  min-height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.imgacerca h1 {
-  color: #f88543;
-  font-style: unset;
-  text-decoration: underline;
-  font-size: 5rem;
-}
-
 .display {
   display: flex;
   flex-direction: row;

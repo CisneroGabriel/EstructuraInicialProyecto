@@ -98,7 +98,6 @@ body footer div a i {
     margin: 3%;
     padding-right: 3%;
 
-
     h2 {
         font-size: 2rem;
     }
@@ -174,27 +173,6 @@ body footer div a i {
 .bodycol {
     background-color: #ac9d3071;
 }
-
-.imgacerca {
-    background-image: url("../assets/img/acercade.jpg");
-    background-size: cover;
-    min-height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    h1 {
-        color: #f88543;
-        font-style: unset;
-        text-decoration: underline;
-        font-size: 5rem;
-    }
-}
-
-
 
 
 .display {
