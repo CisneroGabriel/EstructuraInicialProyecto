@@ -95,8 +95,9 @@ body footer div a i {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3%;
-    padding-right: 3%;
+    margin-left: 2%;
+    margin: 2%;
+    padding-right: 1%;
 
     h2 {
         font-size: 2rem;
@@ -104,6 +105,9 @@ body footer div a i {
 
     p {
         font-size: 1rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
     }
 }
 
