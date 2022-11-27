@@ -1,11 +1,81 @@
+.textmargentext {
+  color: rgba(129, 119, 41, 0.866);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 * {
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
 }
 
-.textmargentext {
-  color: rgba(129, 119, 41, 0.866);
+.sectionimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4%;
+}
+.sectionimg h2 {
+  font-size: 2rem;
+}
+.sectionimg p {
+  font-size: 1rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.sectionimg2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3%;
+}
+
+body footer div a i {
+  color: rgba(29, 30, 29, 0.7607843137);
+}
+
+.imgindex {
+  background-image: url("../assets/img/INDEXSI.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.imgindex h1 {
+  color: #ffffff;
+  font-style: unset;
+  text-decoration: underline;
+  font-size: 4rem;
+}
+.imgindex p {
+  color: #e7c7a3;
+  font-size: 2rem;
+}
+
+.footindex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(206, 189, 130, 0.8);
+  padding: 2%;
 }
 
 .imgbanner {
@@ -34,68 +104,43 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-body footer div a i {
-  color: rgba(29, 30, 29, 0.7607843137);
+@media (min-width: 700px) {
+  .contacta {
+    padding: 0 4em;
+  }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .contact-wrapper > * {
+    padding: 2em;
+  }
+  .contact-info h4,
+.contact-info ul,
+.contact-info p {
+    text-align: left;
+  }
 }
-
-p {
-  font-family: Georgia, "Times New Roman", Times, serif;
+@media screen and (max-width: 800px) {
+  .container-img {
+    width: 95%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: 200px;
+  }
+  .container-img .box-img:nth-child(1) {
+    grid-column-start: span 1;
+  }
 }
-
-.imgindex {
-  background-image: url("../assets/img/INDEXSI.jpg");
-  background-size: cover;
-  min-height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+@media screen and (max-width: 500px) {
+  .container-img {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container-img .box-img img {
+    height: 200px;
+  }
 }
-.imgindex h1 {
-  color: #ffffff;
-  font-style: unset;
-  text-decoration: underline;
-  font-size: 4rem;
-}
-.imgindex p {
-  color: #e7c7a3;
-  font-size: 2rem;
-}
-
-.sectionimg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 4%;
-}
-.sectionimg h2 {
-  font-size: 2rem;
-}
-.sectionimg p {
-  font-size: 1rem;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
-.sectionimg2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 3%;
-}
-
-.footindex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: rgba(206, 189, 130, 0.8);
-  padding: 2%;
-}
-
 .container-img {
   width: 100%;
   background-color: rgba(146, 135, 102, 0.77);
@@ -150,14 +195,6 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .holapai {
@@ -259,42 +296,4 @@ ul {
 .contact-info p {
   text-align: center;
   margin: 0 0 1rem 0;
-}
-
-@media (min-width: 700px) {
-  .contacta {
-    padding: 0 4em;
-  }
-  .contact-wrapper {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  }
-  .contact-wrapper > * {
-    padding: 2em;
-  }
-  .contact-info h4,
-.contact-info ul,
-.contact-info p {
-    text-align: left;
-  }
-}
-@media screen and (max-width: 800px) {
-  .container-img {
-    width: 95%;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    grid-template-rows: 200px;
-  }
-  .container-img .box-img:nth-child(1) {
-    grid-column-start: span 1;
-  }
-}
-@media screen and (max-width: 500px) {
-  .container-img {
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .container-img .box-img img {
-    height: 200px;
-  }
 }/*# sourceMappingURL=style.css.map */

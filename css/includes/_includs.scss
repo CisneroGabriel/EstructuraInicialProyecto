@@ -1,0 +1,16 @@
+.imgbanner {
+    @include banners;
+}
+
+.h1s {
+    @include titulospaginas;
+}
+
+.cards {
+    @include card;
+}
+
+.textmargen {
+    @include textosmargen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

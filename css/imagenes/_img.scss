@@ -1,0 +1,60 @@
+@mixin banners {
+    height: 58%;
+    width: 100%;
+}
+
+
+.sectionimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin: 4%;
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+
+.sectionimg2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin: 3%;
+}
+
+body footer div a i {
+    color: #1d1e1dc2;
+}
+
+.imgindex {
+    background-image: url("../assets/img/INDEXSI.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        color: #ffffff;
+        font-style: unset;
+        text-decoration: underline;
+        font-size: 4rem;
+    }
+
+    p {
+        color: #e7c7a3;
+        font-size: 2rem;
+    }
+
+}
