@@ -17,7 +17,7 @@ $colores: (
 }
 
 @mixin textosmargen {
-    margin: 1%;
+    margin: 3%;
     padding: 1%;
 }
 
@@ -62,8 +62,9 @@ $colores: (
 body footer div a i {
     color: #1d1e1dc2;
 }
-
-
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 
 .imgindex {
     background-image: url("../assets/img/INDEXSI.jpg");
@@ -90,12 +91,11 @@ body footer div a i {
 
 }
 
-
 .sectionimg {
     display: flex;
     align-items: center;
     justify-content: center;
-   margin: 3%;
+   margin: 4%;
 
     h2 {
         font-size: 2rem;
@@ -234,7 +234,6 @@ ul {
     list-style: none;
     padding: 0;
 }
-
 .logo {
     text-align: center;
     font-size: 3em;
@@ -247,7 +246,7 @@ ul {
 
 
 .contact-form {
-    background: #e5ad47a0;
+    background: #b0815eaa;
 
     form {
         display: grid;
@@ -280,12 +279,12 @@ ul {
     border: none;
     background: none;
     outline: 0;
-    color: #fff;
-    border-bottom: 1px solid #528d18;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid #a85b27;
 }
 
 .contact-form form button {
-    background: #cc9a44;
+    background: #AB9F7B;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -300,7 +299,7 @@ ul {
 }
 
 .contact-info {
-    background: rgba(223, 234, 75, 0.821);
+    background-color: #AB9F7B;
 }
 
 .contact-info h4,

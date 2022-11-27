@@ -29,13 +29,17 @@
 }
 
 .textmargen {
-  margin: 1%;
+  margin: 3%;
   padding: 1%;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 body footer div a i {
   color: rgba(29, 30, 29, 0.7607843137);
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .imgindex {
@@ -64,7 +68,7 @@ body footer div a i {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 3%;
+  margin: 4%;
 }
 .sectionimg h2 {
   font-size: 2rem;
@@ -202,7 +206,7 @@ ul {
 }
 
 .contact-form {
-  background: rgba(229, 173, 71, 0.6274509804);
+  background: rgba(176, 129, 94, 0.6666666667);
 }
 .contact-form form {
   display: grid;
@@ -227,12 +231,12 @@ ul {
   border: none;
   background: none;
   outline: 0;
-  color: #fff;
-  border-bottom: 1px solid #528d18;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid #a85b27;
 }
 
 .contact-form form button {
-  background: #cc9a44;
+  background: #AB9F7B;
   border: 0;
   text-transform: uppercase;
   padding: 1em;
@@ -247,7 +251,7 @@ ul {
 }
 
 .contact-info {
-  background: rgba(223, 234, 75, 0.821);
+  background-color: #AB9F7B;
 }
 
 .contact-info h4,
